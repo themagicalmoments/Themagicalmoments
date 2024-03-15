@@ -665,26 +665,20 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(new Date().getTime());
-    
-    // default example //+ 1 * 120 * 120 * 2000);
+    var d = new Date(new Date().getTime()+ 1 * 120 * 120 * 2000);
+
+    // default example
     simplyCountdown('.simply-countdown-one', {
-        year: 2024,
-        month: 3,
-        day: 17
-	//year: d.getFullYear(),
-        //month: d.getMonth() + 1,
-        //day: d.getDate()
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
     });
 
     //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
-        year: 2024,
-        month: 3,
-        day: 17,
-	//year: d.getFullYear(),
-        //month: d.getMonth() + 1,
-        //day: d.getDate(),
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
         enableUtc: false
     });
 </script>
