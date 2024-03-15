@@ -1032,8 +1032,8 @@ form label {
 }
 
 .heart {
-  position: absolute;
-  top: 4em;
+  position: relative;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 99;
