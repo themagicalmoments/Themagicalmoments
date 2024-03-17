@@ -1063,7 +1063,7 @@ form label {
   z-index: 99;
   animation: pulse 1s ease infinite;
 }
-.heart1 i {
+.heart i {
   font-size: 20px;
   background: #fff;
   padding: 20px;
@@ -1074,7 +1074,7 @@ form label {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
-  .heart1 {
+  .heart {
     display: none;
   }
 }
