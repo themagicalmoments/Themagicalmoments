@@ -1112,12 +1112,12 @@ form label {
 
   .couple-half .bride {
     float: right;
-    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .couple-half .groom {
     float: left;
-    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 @media screen and (max-width: 768px) {
