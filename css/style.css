@@ -1111,13 +1111,13 @@ form label {
   }
 
   .couple-half .bride {
-    float: left;
-    margin-left: 5px;
+    float: right;
+    margin-right: 5px;
   }
 
   .couple-half .groom {
-    float: right;
-    margin-right: 5px;
+    float: left;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 768px) {
