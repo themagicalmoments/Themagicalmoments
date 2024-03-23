@@ -1160,11 +1160,11 @@ form label {
 }
 .couple-half .groom {
   float: left;
-  margin-right: 0px;
+  margin-left: 350px;
 }
 .couple-half .bride {
   float: right;
-  margin-left: 0px;
+  margin-right: 350px;
 }
 .couple-half .desc-groom {
   padding-right: 250px;
