@@ -1049,6 +1049,24 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+.heart1 {
+  position: relative;
+  top: 4em;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: pulse 1s ease infinite;
+}
+.heart1 i {
+  font-size: 20px;
+  background: #fff;
+  padding: 20px;
+  color: #F14E95;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
 @media screen and (max-width: 768px) {
   .heart {
     display: none;
