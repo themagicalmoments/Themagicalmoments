@@ -1160,19 +1160,19 @@ form label {
 }
 .couple-half .groom {
   float: left;
-  margin-left: 250px;
+  margin-left: 345px;
   
 }
 .couple-half .bride {
   float: right;
-  margin-right: 250px;
+  margin-right: 345px;
 }
 .couple-half .desc-groom {
-  padding-left: 0px;
+  padding-left: 300px;
   text-align: left;
 }
 .couple-half .desc-bride {
-  padding-right: 0px;
+  padding-right: 300px;
   text-align: right;
 }
 @media screen and (max-width: 480px) {
