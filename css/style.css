@@ -1050,7 +1050,10 @@ form label {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
- 
+  .couple-wrap {
+    width: 100%;
+  }
+} 
 }
 
 .heart1 {
@@ -1072,10 +1075,14 @@ form label {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
-  .heart1 {
+  .heart {
     display: block;
     margin-top: 10px;
   }
+   .heart1 {
+    display: block;
+    margin-top: 10px;
+  } 
   .fh5co-nav a {
     font-size: 22px;
   }
