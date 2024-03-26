@@ -1159,27 +1159,25 @@ form label {
   }
 }
 .couple-half .groom {
-  float: left;
-  margin-left: 345px;
-  
+  float: right;
+  margin-right: 5px;
 }
 .couple-half .bride {
-  float: right;
-  margin-right: 345px;
+  float: left;
+  margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-left: 300px;
-  text-align: left;
+  padding-right: 180px;
+  text-align: right;
 }
 .couple-half .desc-bride {
-  padding-right: 300px;
-  text-align: right;
+  padding-left: 180px;
+  text-align: left;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 35px;
   }
   .couple-half .desc-groom {
     padding-right: 0;
