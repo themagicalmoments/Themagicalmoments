@@ -1014,8 +1014,6 @@ form label {
   .fh5co-section {
     padding: 3em 0;
   }
-}
-
 .fh5co-section-gray {
   background: rgba(0, 0, 0, 0.04);
 }
@@ -1025,55 +1023,53 @@ form label {
   margin: 0 auto;
   position: relative;
 }
+}  
 @media screen and (max-width: 768px) {
   .couple-wrap {
     width: 100%;
   }
-}
-
-.heart {
-  position: absolute;
-  top: 4em;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  animation: pulse 1s ease infinite;
-}
-.heart i {
-  font-size: 20px;
-  background: #fff;
-  padding: 20px;
-  color: #F14E95;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  .heart {
+    position: absolute;
+    top: 4em;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    animation: pulse 1s ease infinite;
+  }
+  .heart i {
+    font-size: 20px;
+    background: #fff;
+    padding: 20px;
+    color: #F14E95;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
 }
 @media screen and (max-width: 768px) {
   .couple-wrap {
     width: 100%;
   }
-} 
-}
-
-.heart1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  animation: pulse 1s ease infinite;
-}
-.heart1 i {
-  font-size: 20px;
-  background: #fff;
-  padding: 20px;
-  color: #F14E95;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
+  .heart1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    animation: pulse 1s ease infinite;
+  }
+  .heart1 i {
+    font-size: 20px;
+    background: #fff;
+    padding: 20px;
+    color: #F14E95;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+}  
 @media screen and (max-width: 768px) {
   .heart {
     display: block;
@@ -1140,30 +1136,30 @@ form label {
   .couple-half {
     width: 100%;
   }
+  .couple-half h3 {
+    font-family: "Sacramento", Arial, serif;
+    color: #F14E95;
+    font-size: 30px;
+  }
+  .couple-half .groom, .couple-half .bride {
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .couple-half .groom img, .couple-half .bride img {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
 }
-.couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
-  font-size: 30px;
-}
-.couple-half .groom, .couple-half .bride {
-  float: left;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
-.couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-@media screen and (min-width: 480px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     width: 100%;
     height: 140px;
@@ -1173,25 +1169,29 @@ form label {
     height: 120px;
     margin: 0 auto;
   }
-}
-.couple-half .groom {
-  float: right;
-  margin-right: 5px;
-}
-.couple-half .bride {
-  float: left;
-  margin-left: 5px;
-}
-.couple-half .desc-groom {
-  padding-right: 180px;
-  text-align: right;
-}
-.couple-half .desc-bride {
-  padding-left: 180px;
-  text-align: left;
+  .couple-half .groom {
+    float: right;
+    margin-right: 5px;
+  }
+  .couple-half .bride {
+    float: left;
+    margin-left: 5px;
+  }
+  .couple-half .desc-groom {
+    padding-right: 180px;
+    text-align: right;
+  }
+  .couple-half .desc-bride {
+    padding-left: 180px;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 480px) {
-  .couple-half .groom, .couple-half .bride {
+  .couple-half .groom {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .couple-half .bride {
     margin-left: 0;
     margin-right: 0;
   }
