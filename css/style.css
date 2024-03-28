@@ -1071,7 +1071,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .heart1 {
     display: block;
     margin-top: 10px;
